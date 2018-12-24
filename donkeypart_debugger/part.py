@@ -12,6 +12,7 @@ class DonkeypartDebugger:
         print("Recording: " + str(recording))
         return image_array, steering, throttle, recording
 
+
 if __name__ == "__main__":
     p = DonkeypartDebugger()
     p.run_threaded()
