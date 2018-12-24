@@ -4,7 +4,7 @@ class DonkeypartDebugger:
 
     def run_threaded(self, image_array=None, steering=0, throttle=0,usermode='user',recording=False):
         if image_array is not None:
-            print("Sizeof ImageArryay : " + len(image_array))
+            print("Sizeof ImageArryay : " + str(len(image_array)))
         else:
             print("Imagearray None")
         print("Steering : " + str(steering))
@@ -14,7 +14,7 @@ class DonkeypartDebugger:
 
     def run(self,  image_array=None, steering=0, throttle=0, usermode='user',recording=False):
         if image_array is not None:
-            print("Sizeof ImageArryay : " + len(image_array))
+            print("Sizeof ImageArryay : " + str(len(image_array)))
         else:
             print("Imagearray None")
         print("Steering : " + str(steering))
